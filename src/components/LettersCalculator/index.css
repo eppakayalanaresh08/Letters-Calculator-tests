@@ -1,0 +1,131 @@
+.bg-container {
+  background-image: linear-gradient(to right, #1d976c, #93f9b9);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-Calculator {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+}
+
+@media screen and (min-width: 992px) {
+  .card-Calculator {
+    flex-direction: row;
+  }
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  order: 1;
+}
+
+@media screen and (min-width: 992px) {
+  .input-container {
+    align-items: flex-start;
+    order: 0;
+  }
+}
+
+.heading-calculate {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: bold;
+}
+
+@media screen and (min-width: 992px) {
+  .heading-calculate {
+    font-size: 46px;
+  }
+}
+
+.label-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-label {
+  font-size: 10px;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-weight: bold;
+}
+
+.input-search-layout {
+  color: #ffffff;
+  font-size: 10px;
+  font-family: 'Roboto';
+  border: 1px solid #e4e7eb;
+  border-radius: 3px;
+  margin-top: 8px;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  background-color: transparent;
+  outline: none;
+}
+@media screen and (min-width: 992px) {
+  .input-search-layout {
+    width: 100%;
+    font-size: 10px;
+    padding-right: 150px;
+  }
+}
+
+.no-letter-description {
+  align-self: center;
+  color: #219a6f;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Roboto';
+  background-color: #ffffff;
+  padding-left: 24px;
+  padding-right: 24px;
+  border-radius: 12px;
+  padding: 18px;
+  margin-top: 32px;
+  border: 1px solid #e4e7eb;
+}
+
+@media screen and (min-width: 992px) {
+  .no-letter-description {
+    align-self: flex-start;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .no-letter-description {
+    padding: 30px;
+    padding-left: 38px;
+    padding-right: 38px;
+  }
+}
+
+.image-Element {
+  width: 100%;
+  order: 0;
+}
+
+@media screen and (min-width: 992px) {
+  .image-Element {
+    width: 550px;
+    order: 1;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .image-Element {
+    width: 700px;
+  }
+}
